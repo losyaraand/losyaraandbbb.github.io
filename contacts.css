@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift Condensed';
+}
+
+@media screen and (min-width: 1160px) {
+    .iconhead.close {
+        cursor: pointer;
+        background-image: url('./menu.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.close:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .iconhead.open {
+        cursor: pointer;
+        background-image: url('./close.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.open:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .menuspi.close {
+        display: none;
+    }
+    .menuspi.open {
+        list-style: none;
+        height: 195px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        opacity: 90%;
+        background-color: #446894;
+        border-radius: 20px 20px 20px 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuspi.open a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+        height: 45px;
+        width: 100px;
+        margin-left: 20px;
+        transition: all 0.3s;
+    }
+    .menuspi.open a:hover {
+        color: #ffce00;
+        margin-left: 30px;
+        font-weight: 900;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #logotiphead {
+        display: flex;
+        align-items: center;
+    }
+    #logotiphead a {
+        transition: 0.3s;
+    }
+    #logotiphead a:hover {
+        scale: 102%;
+    }
+    #nameofsite {
+        font-size: 40px;
+        font-weight: 600;
+        color:#446894;
+        margin-left: 15px;
+    }
+    #nameofsite a {
+        text-decoration: none;
+        color: #446894;
+        transition: 0.3s;
+    }
+    #nameofsite a:hover {
+        color:#ffce00;
+    }
+    #addhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #callhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #mailhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #headerimg {
+        width: 50px;
+        margin-right: 20px;
+    }
+    #yelhead {
+        color:#ffce00;
+        font-weight: 800;
+    }
+    #downyelhead {
+        color:#446894;
+    }
+    #cont {
+        background-image: url('./solar.jpg');
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 100px;
+        font-weight: 900;
+    }
+    #contactsadd {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    footer {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:#ffcc00;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    footer a:hover {
+        color: #446894;
+    }
+    #iconsfoot {
+        display: flex;
+        margin-left: 50%;
+        transition: 0.3s;
+    }
+    #iiff {
+        width: 60px;
+    }
+    #iconsfoot a {
+        transition: 0.3s;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #iconsfoot a:hover {
+        scale: 105%;
+        background-color: #446894;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    iframe {
+        height: 800px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1159px) {
+    .iconhead.close {
+        cursor: pointer;
+        background-image: url('./menu.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.close:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .iconhead.open {
+        cursor: pointer;
+        background-image: url('./close.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.open:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .menuspi.close {
+        display: none;
+    }
+    .menuspi.open {
+        list-style: none;
+        height: 195px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        opacity: 90%;
+        background-color: #446894;
+        border-radius: 20px 20px 20px 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuspi.open a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+        height: 45px;
+        width: 100px;
+        margin-left: 20px;
+        transition: all 0.3s;
+    }
+    .menuspi.open a:hover {
+        color: #ffce00;
+        margin-left: 30px;
+        font-weight: 900;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #logotiphead {
+        display: flex;
+        align-items: center;
+    }
+    #logotiphead a {
+        transition: 0.3s;
+    }
+    #logotiphead a:hover {
+        scale: 102%;
+    }
+    #nameofsite {
+        font-size: 40px;
+        font-weight: 600;
+        color:#446894;
+        margin-left: 15px;
+    }
+    #nameofsite a {
+        text-decoration: none;
+        color: #446894;
+        transition: 0.3s;
+    }
+    #nameofsite a:hover {
+        color:#ffce00;
+    }
+    #addhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #callhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #mailhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #headerimg {
+        width: 50px;
+        margin-right: 20px;
+    }
+    #yelhead {
+        color:#ffce00;
+        font-weight: 800;
+    }
+    #downyelhead {
+        color:#446894;
+    }
+    #cont {
+        background-image: url('./solar.jpg');
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 80px;
+        font-weight: 900;
+    }
+    #contactsadd {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:#ffcc00;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        flex-wrap: wrap;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    footer a:hover {
+        color: #446894;
+    }
+    #iconsfoot {
+        display: flex;
+        transition: 0.3s;
+    }
+    #iiff {
+        width: 50px;
+    }
+    #iconsfoot a {
+        transition: 0.3s;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #iconsfoot a:hover {
+        scale: 105%;
+        background-color: #446894;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    iframe {
+        height: 600px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 699px) {
+    .iconhead.close {
+        cursor: pointer;
+        background-image: url('./menu.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.close:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .iconhead.open {
+        cursor: pointer;
+        background-image: url('./close.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s;
+    }
+    .iconhead.open:hover {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+    .menuspi.close {
+        display: none;
+    }
+    .menuspi.open {
+        list-style: none;
+        height: 195px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        opacity: 90%;
+        background-color: #446894;
+        border-radius: 20px 20px 20px 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuspi.open a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+        height: 45px;
+        width: 100px;
+        margin-left: 20px;
+        transition: all 0.3s;
+    }
+    .menuspi.open a:hover {
+        color: #ffce00;
+        margin-left: 30px;
+        font-weight: 900;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #logotiphead {
+        display: flex;
+        align-items: center;
+    }
+    #logotiphead a {
+        transition: 0.3s;
+    }
+    #logotiphead a:hover {
+        scale: 102%;
+    }
+    #nameofsite {
+        font-size: 30px;
+        font-weight: 600;
+        color:#446894;
+        margin-left: 15px;
+    }
+    #nameofsite a {
+        text-decoration: none;
+        color: #446894;
+        transition: 0.3s;
+    }
+    #nameofsite a:hover {
+        color:#ffce00;
+    }
+    #addhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #callhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #mailhead {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #headerimg {
+        width: 50px;
+        margin-right: 20px;
+    }
+    #yelhead {
+        color:#ffce00;
+        font-weight: 800;
+    }
+    #downyelhead {
+        color:#446894;
+    }
+    #cont {
+        background-image: url('./solar.jpg');
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #contactsadd {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:#ffcc00;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        flex-wrap: wrap;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    footer a:hover {
+        color: #446894;
+    }
+    #iconsfoot {
+        display: flex;
+        transition: 0.3s;
+    }
+    #iiff {
+        width: 50px;
+    }
+    #iconsfoot a {
+        transition: 0.3s;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #iconsfoot a:hover {
+        scale: 105%;
+        background-color: #446894;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+    iframe {
+        height: 300px;
+    }
+}
