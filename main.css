@@ -1,6 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+@font-face {
+    font-family: 'Bahnschrift Condensed';
+    src: local('Bahnschrift Condensed') format('truetype');
+}
+
+* {
     font-family: 'Bahnschrift Condensed';
 }
 
@@ -395,6 +403,10 @@
         background-size: cover;
         background-repeat: no-repeat;
         margin-right: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     #handss1,#handss2,#handss3,#handss4,#handss5 {
         width: 90%;
@@ -951,7 +963,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 95%;
-        padding: 20px;
         align-items: center;
         justify-content: space-around;
     }
@@ -1151,18 +1162,18 @@
         flex-direction: row;
     }
     #videoszag {
-        font-size: 40px;
+        font-size: 30px;
         color: #446894;
         font-weight: 900;
-        margin-bottom: -25px;
+        margin-bottom: -17px;
     }
     #videoszag1 {
-        font-size: 60px;
+        font-size: 40px;
         color: #ffce00;
         font-weight: 900;
     }
     #videoszag2 {
-        font-size: 60px;
+        font-size: 40px;
         margin-bottom: 10px;
         color: #446894;
         font-weight: 900;
@@ -1170,7 +1181,7 @@
     #videostxt {
         color:#446894;
         font-size: 15px;
-        width: 90%;
+        width: 100%;
         text-align: justify;
         margin-left: 15px;
     }
@@ -1250,8 +1261,8 @@
         justify-content: center;
     }
     #blockwimg {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     #txtinhands {
         background-color: #ffcc00;
@@ -1271,7 +1282,6 @@
         width: 90%;
     }
     footer {
-        /* padding: 10px; */
         width: 100%;
         display: flex;
         align-items: center;
