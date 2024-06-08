@@ -4,6 +4,16 @@
     font-family: 'Bahnschrift Condensed';
 }
 
+@font-face {
+    font-family: Bahnschrift;
+    src: url('./bahnschrift.ttf') format('truetype');
+}
+
+* {
+    font-family: Bahnschrift;
+    font-stretch: condensed;
+}
+
 @media screen and (min-width: 1160px) {
     .iconhead.close {
         cursor: pointer;
